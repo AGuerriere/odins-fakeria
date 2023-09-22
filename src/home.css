@@ -1,0 +1,62 @@
+* {
+  font-family: 'Fredoka', sans-serif;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content:space-evenly;
+  background-color: rgb(4, 0, 56);
+  color: white;
+  height: 15vh;
+  font-size: 30px;
+  align-items: center;
+}
+
+.navButtons {
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+}
+
+.background {
+  display:flex;
+  color: linear-gradient(to right, #CF2D1B 0%, #CF8608 100%);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./restaurant.jpg');
+  height: 85vh;
+}
+
+.background h1 {
+  font-size: 3.5em;
+  background: #CF1702;
+  background: linear-gradient(to right, #CF1702 0%, #CF5D11 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+          
+        
+}
+
+.background p {
+  margin-top: 30px;
+  font-size: 2.5em;
+  background: #CF1702;
+  background: linear-gradient(to right, #CF1702 0%, #CF5D11 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.background button {
+  margin-top: 30px;
+  font-size: 1.5em;
+  background-color:brown;
+  color: white;
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 7px;
+}
